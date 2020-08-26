@@ -45,8 +45,10 @@ h1{
 }
 
 nav{
+    padding: 0;
     text-align: justify;
     margin: 15px;
+    height: 42px;
 }
 
 nav::after{
@@ -58,6 +60,8 @@ nav::after{
 nav a{
     display: inline-block;
     width: 200px;
+    /*A altura do nav(42px) é igual a essa altura(40px) + 1px
+     da borda superior e 1px da borda inferior*/
     height: 40px;
     /*Para alinhar o texto na vertical usei o tamanho da 
     linha do mesmo tamanho da altura da caixa */
@@ -79,3 +83,31 @@ nav a:hover{
     transition: .5s;
 }
 
+aside{
+    float: right;
+    margin: 0 15px 15px 15px;
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: orangered;
+    border-width: 1px;
+    background-color: orange;
+}
+
+aside h2{
+    color: orangered;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+aside a{
+    color: white;
+    text-decoration: none;
+}
+
+aside a:hover{
+    text-decoration: underline;
+    color: rgb(0, 30, 60);
+}
