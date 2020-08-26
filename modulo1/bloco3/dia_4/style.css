@@ -111,3 +111,26 @@ aside a:hover{
     text-decoration: underline;
     color: rgb(0, 30, 60);
 }
+
+footer{
+    
+    background-color: rgb(36, 36, 36);
+    height: 100px;
+    
+    text-align: center;
+    
+}
+
+h5{
+    margin: 0;
+    color: rgb(159, 159, 159);
+    line-height: 100px;
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+h5 strong{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
