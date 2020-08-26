@@ -9,6 +9,10 @@ body{
 header{
     /*margin: 0px;
     padding: 0px;*/
+    height: 90px;
+    border-bottom-style: solid;
+    border-bottom-color: dodgerblue;
+    border-bottom-width: 8px;
     background-color: orange;
     color: orangered;
     text-align: right;
@@ -39,3 +43,39 @@ h1{
     color: black;
     display: inline-block;
 }
+
+nav{
+    text-align: justify;
+    margin: 15px;
+}
+
+nav::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+
+nav a{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    /*Para alinhar o texto na vertical usei o tamanho da 
+    linha do mesmo tamanho da altura da caixa */
+    line-height: 40px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: dodgerblue;
+    border-width: 1px;
+    text-decoration: none;
+    text-align: center;
+    color: dodgerblue;
+    transition: 1s;
+}
+
+nav a:hover{
+    background-color: orangered;
+    border-color: white;
+    color: white;
+    transition: .5s;
+}
+
