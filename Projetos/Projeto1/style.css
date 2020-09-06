@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+#cabecalho {
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-bottom: rgb(0, 51, 51);
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  background-color: rgb(15, 163, 107);
+  height: 100px;
+  width: 100%;
+  z-index: 1;
+}
+
+.div_imagem {
+  float: left;
+  height: 100px;
+  width: 100px;
+  margin-right: 200px;
+}
+
+#minha_foto {
+  width: 98px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 50px;
+}
+
+.titulo {
+  color: white;
+  font-family: Courier New, Courier, monospace;
+  font-size: 50px;
+  margin: 0;
+}
+
+#titulo {
+  font-size: 22px;
+  letter-spacing: 1.3em;
+  font-family: Times New Roman, Times, serif, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  border-top-style: solid;
+  border-top-width: 1px;
+  display: inline;
+}
+
+.conteudo {
+  margin-top: 120px;
+}
+
+.listas {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.box_licoes {
+  margin: 20px 50px;
+  display: inline-block;
+  width: 400px;
+  height: 210px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  border-color: rgb(200, 200, 200);
+  background-color: rgb(221, 221, 221);
+  color: rgb(96, 96, 96);
+  text-align: left;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.box_licoes:hover {
+  color: white;
+  border-color: rgb(12, 138, 89);
+}
+
+.efeito {
+  border-radius: 30px;
+  background-color: rgb(15, 163, 107);
+  width: 60px;
+  height: 60px;
+  float: right;
+  position: relative;
+  top: -35px;
+  right: -30px;
+  transition: 0.5s;
+}
+
+.box_licoes:hover  .efeito {
+  background-color: rgb(15, 163, 107);
+  border-radius: 450px;
+  width: 900px;
+  height: 900px;
+  top: -500px;
+  right: -400px;
+  transition: 0.15s;
+}
+
+#licoes_aprendidas {
+  position: absolute;
+}
+
+#licoes_a_aprender {
+  position: absolute;
+}
+
+#rodape {
+  display: inline-block;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.icones {
+  margin: auto;
+  display: inline;
+
+}
+
+.icone {
+  margin: 25px;
+  width: 50px;
+}
+
+section {
+  display: inline-block;
+  margin: auto;
+}
+
+.artigos {
+  width: 100%;
+}
+
+.lado-esquerdo {
+  margin: 40px;
+  text-align: left;
+  color: rgb(58, 69, 88);
+
+}
+
+.lado-direito {
+  border-radius: 8px;
+  background-color: rgb(0, 51, 51);
+  color: white;
+  float: right;
+  width: 300px;
+  margin: 40px;
+  padding: 25px;
+}
+
+aside p {
+  font-style: italic;
+  line-height: 2em;
+}
+
+article h2 {
+  color: rgb(0, 51, 51);
+}
+
+article p {
+  color: rgb(58, 69, 88);
+}
+
+#tabela {
+  font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#tabela td , #tabela th {
+  border: 1px solid rgb(221, 221, 221);
+  padding: 8px;
+
+}
+
+#tabela tr:nth-child(even) {
+  background-color: rgb(242, 242, 242);
+}
+
+#tabela tr:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+#tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(15, 163, 107);
+  color: white;
+}
