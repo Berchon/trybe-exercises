@@ -115,7 +115,14 @@
       //que possui a classe center-content) para a cor verde;
       document.querySelector(".center-content").parentElement.style.background = "green";
 
-      console.log();
+      //Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
+      let list = document.querySelectorAll("ul");
+      let remove2 = list[0].lastElementChild
+      list[0].lastElementChild.remove(remove2);
+
+      let remove3 = list[0].lastElementChild
+      list[0].lastElementChild.remove(remove3);
+
     </script>
   </body>
 </html>
