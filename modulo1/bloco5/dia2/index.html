@@ -99,7 +99,14 @@
       for (let i = 0; i < item2.length; i += 1) {
           item2[i].className = "description";
       }
-      console.log(document.getElementsByTagName("h3"));
+
+      //Remova o div criado no passo 5 (aquele que possui a classe left-content). 
+      //Utilize a função .removeChild();
+      let item3 = document.getElementsByClassName("main-content")
+      let remove =document.querySelector("div.left-content");
+      item3[0].removeChild(remove);
+
+      console.log(item3);
     </script>
   </body>
 </html>
