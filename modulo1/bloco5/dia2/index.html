@@ -91,7 +91,15 @@
           <h3>c</h3>
       </div>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      // Adicione a classe title na tag h1 criada;
+      document.getElementsByTagName("h1")[0].id = "title";
+
+      //Adicione a classe description nas 3 tags h3 criadas
+      let item2 = document.getElementsByTagName("h3");
+      for (let i = 0; i < item2.length; i += 1) {
+          item2[i].className = "description";
+      }
+      console.log(document.getElementsByTagName("h3"));
     </script>
   </body>
 </html>
