@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bulma/bulma.min.css">
+
+    <link rel="stylesheet" href="/css/datePicker/DatePickerX.min.css">
+    <script src="/js/datePicker/DatePickerX.min.js"></script>
+</head>
+<body>
+    <section class="section">
+        <form action="" method="get">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="field">
+                    <label class="label" for="name">Nome</label>
+                    <div class="control">
+                        <input class="input" type="text" name="name" id="name" required maxlength="50">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label" for="email">E-mail</label>
+                    <div class="control">
+                        <input class="input" type="email" name="email" id="email" required maxlength="50">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label" for="cpf">CPF</label>
+                    <div class="control">
+                        <input class="input" maxlength="11" type="text" name="cpf" id="cpf" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label" for="adress">Endereço</label>
+                    <div class="control">
+                        <input class="input" type="text" name="adress" id="adress" required maxlength="200">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label" for="city">Cidade</label>
+                    <div class="control">
+                        <input class="input" type="text" name="city" id="city" required maxlength="28">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label" for="uf">Estado</label>
+                    <div class="control">
+                        <div class="select">
+                            <select name="uf" id="uf" required>
+                                <option value="ac">AC</option>
+                                <option value="ba">BA</option>
+                                <option value="rs">RS</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Tipo de Residência</label>
+                    <div class="control">
+                        <label class="radio" for="house">
+                            <input type="radio" name="house-type" id="house" value="Casa" required>
+                            Casa
+                        </label>
+                        <label class="radio" for="apartment">
+                            <inputtype="radio" name="house-type" id="apartment" value="Apartamento" required>
+                            Apartamento
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <div class="field">
+                    <label class="label" for="resume">Resumo do currículo</label>
+                    <div class="control">
+                        <textarea class="textarea" name="resume" id="resume" cols="30" rows="10" maxlength="1000" required></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label" for="office">Cargo</label>
+                    <div class="control">
+                        <input class="input" type="text" name="office" id="office" required maxlength="40">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label" for="office-description">Descrição do Cargo</label>
+                    <div class="control">
+                        <input class="input" type="text"  name="office-description" id="office-description" required maxlength="500">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label" for="date">Data de início</label>
+                    <div class="control">
+                        <input class="input" type="date" required name="date" id="date">
+                    </div>
+                </div>
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-link" type="submit">Enviar</button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-link is-light" type="reset">Limpar</button>
+                    </div>
+                </div>
+        </form>
+    </section>
+    <script src="/js/script.js"></script>
+</body>
+</html>
