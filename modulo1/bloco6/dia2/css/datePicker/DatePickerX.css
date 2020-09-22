@@ -16,7 +16,7 @@
 }
 
 .date-picker-x {
-	background: #444;
+	background: rgb(128, 128, 128);
 	box-sizing: content-box;
 	color: #fff;
 	display: none;
