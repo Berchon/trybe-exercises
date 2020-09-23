@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: red;
+  height: 150px;
+}
+
+h1 {
+  line-height: 150px;
+  text-align: center;
+}
+
+main {
+  background-color: green;
+  /* padding: 10px; */
+}
+
+.section {
+  /* background-color: dodgerblue; */
+  margin: 10px;
+}
+
+.input {
+  width: 295px;
+  height: 40px;
+}
+.button {
+  background-color: dodgerblue;
+  color: white;
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  transition: 0.2s;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: dodgerblue;
+  transition: 0.2s;
+}
+
+.container {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+}
+
+.background-image {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+}
+
+.text {
+  margin-top: -300px;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+  color: white;
+  word-wrap: break-word;
+}
+
+footer {
+  background-color: blue;
+  height: 100px;
+}
