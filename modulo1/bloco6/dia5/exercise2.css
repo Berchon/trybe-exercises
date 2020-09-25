@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    background-color: crimson;
+    color: white;
+    width: 15%;
+}
+
+@media screen and (max-width: 300px) {
+    body {
+        margin: 10px;
+        min-width: 300px;
+    }
+
+    header p {
+        font-size: larger;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    nav ul li {
+        border-radius: 5px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 10px;
+    }
+
+    header p {
+        font-size: larger;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    nav ul li {
+        border-radius: 5px;
+        height: 30px;
+        
+        line-height: 30px;
+    }
+}
