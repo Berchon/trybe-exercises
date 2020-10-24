@@ -1,13 +1,12 @@
 /*
-Quando a promise for resolvida com sucesso, retorne o resultado da divisão desse número por 2, 3, 5 e 10 em um array.
+Quando a Promise for rejeitada, imprima, via console.log, a frase "É mais de oito mil! Essa promise deve estar quebrada!"
 */
+
 const fetch = require('node-fetch');
 
 const rnd = () => Math.ceil(Math.random() * 50);
 
 const divide = number => [2, 3, 5, 10].map(array => number / array);
-//const divide = sum => [2, 3, 5, 10].map(number => sum / number);
-
 
 const fetchPromise = () => {
     const promisse = new Promise((resolve, reject) => {
@@ -30,7 +29,7 @@ const fetchPromise = () => {
           console.log(array);
           return array;
         })
-        .catch(() => console.log('Falhou'))
+        .catch(() => console.log('É mais de oito mil! Essa promise deve estar quebrada!'))
 }
 
 console.log(fetchPromise()); // Note que esse console log é impresso primeiro
