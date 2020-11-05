@@ -6,64 +6,57 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="get">
+    <form>
         <fieldset>
-            <legend>Dados Pessoais</legend>
-            <div class="item-form">
-                <label for="name">Nome</label>
-                <input required  maxlength="40" type="text" name="name" id="name">
-            </div>
-            <div class="item-form">
-                <label for="email">E-mail</label>
-                <input required maxlength="50" type="email" name="email" id="email">
-            </div>
-            <div class="item-form">
-                <label for="cpf">CPF</label>
-                <input required maxlength="11" type="text" name="cpf" id="cpf">
-            </div>
-            <div class="item-form">
-                <label for="adress">Endereço</label>
-                <input required maxlength="200" type="text" name="adress" id="adress">
-            </div>
-            <div class="item-form">
-                <label for="city">Cidade</label>
-                <input required maxlength="28" type="text" name="city" id="city">
-            </div>
-            <div class="item-form">
-                <label for="uf">Estado</label>
-                <select required name="uf" id="uf">
-                    <option value="ac">AC</option>
-                    <option value="ba">BA</option>
-                    <option value="rs">RS</option>
-                </select>
-            </div>
-            <div class="item-form">
-                <input required type="radio" name="house-type" id="house" value="Casa">
-                <label for="house">Casa</label>
-                <input required type="radio" name="house-type" id="apartment" value="Apartamento">
-                <label for="house">Apartamento</label>
-            </div>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" maxlength="40" class="form-comp" required>
+
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" maxlength="50" class="form-comp" required>
+
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" maxlength="11" class="form-comp" required>
+
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" maxlength="200" class="form-comp" required>
+
+            <label for="city">Cidade</label>
+            <input type="text" name="city" id="city" maxlength="28" class="form-comp" required>
+
+            <label for="state">States</label>
+            <select name="state" id="state" class="form-comp" required>
+                
+            </select>
+
+            <label for="home">Home</label>
+            <input type="radio" name="place" value="Home" id="home" class="form-comp" required>
+
+            <label for="home">Apartment</label>
+            <input type="radio" name="place" value="Apartment" id="apto" class="form-comp" required>
+
         </fieldset>
         <fieldset>
-            <legend>Dados Profissionais</legend>
-            <div class="item-form">
-                <label for="resume">Resumo do currículo</label>
-                <textarea required name="resume" id="resume" cols="30" rows="10" maxlength="1000"></textarea>
-            </div>
-            <div class="item-form">
-                <label for="office">Cargo</label>
-                <input type="text" required maxlength="40" name="office" id="office">
-            </div>
-            <div class="item-form">
-                <label for="office-description">Descrição do Cargo</label>
-                <input type="text" required maxlength="500" name="office-description" id="office-description">
-            </div>
-            <div class="item-form">
-                <label for="date">Data de início</label>
-                <input type="date" required name="date" id="date">
-            </div>
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpar</button>
+            <label for="resume">Resume</label>
+            <textarea name="resume" id="resume" cols="30" rows="10" maxlength="1000" class="form-comp" required></textarea>
+
+            <label for="occupation">Occupation</label>
+            <input type="text" name="occupation" id="occupation" maxlength="40" class="form-comp" required>
+
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description" maxlength="40" class="form-comp" required>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date" class="form-comp" required>
+
+        </fieldset>
+
+        <button type="submit" id="submitbtn">Register</button>
+        <button type="button">Clear Fields</button>
     </form>
+    <div class="results" id="results">
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
