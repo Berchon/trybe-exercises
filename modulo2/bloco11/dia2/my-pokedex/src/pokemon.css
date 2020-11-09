@@ -1,0 +1,18 @@
+.content1 {
+    background-color: crimson;
+    border-color: rgb(196, 196, 196);
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    padding: 5px 15px;
+    margin: 5px;
+}
+
+.content-text {
+    width: 200px;
+}
+
+.content-img {
+    width: 100px;
+}
