@@ -1,4 +1,4 @@
-#Agora, a prática
+# Agora, a prática
 Você vai implementar de forma simplificada uma [Pokedex!!](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex) Para os que não estão familiarizados com o universo `Pokemon` , a `Pokedex` é uma enciclopédia de todos os pokemons na natureza. Para o seu caso, a sua aplicação precisa mostrar todos os pokemons presentes no arquivo `data.js` mencionado acima.
 
 Você pode usar a imaginação para estilizar a sua aplicação. Entretanto, é obrigatório que você implemente pelo menos estes dois componentes:
@@ -12,4 +12,4 @@ Você pode usar a imaginação para estilizar a sua aplicação. Entretanto, é 
 2 - `Pokedex` : esse componente representa a enciclopédia de pokemons. Esse componente recebe como entrada uma lista de pokemons para serem mostrados na tela. Para cada um desses pokemons recebidos, `Pokedex` chama o componente `Pokemon` .
 Segue uma sugestão de implementação da aplicação:
 
-![PR do exercício](my-pokedex-project.gif)
+![PR do exercício](my-pokedex-project.git)
