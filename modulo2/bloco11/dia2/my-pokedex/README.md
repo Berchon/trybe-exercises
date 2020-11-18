@@ -12,4 +12,4 @@ Você pode usar a imaginação para estilizar a sua aplicação. Entretanto, é 
 2 - `Pokedex` : esse componente representa a enciclopédia de pokemons. Esse componente recebe como entrada uma lista de pokemons para serem mostrados na tela. Para cada um desses pokemons recebidos, `Pokedex` chama o componente `Pokemon` .
 Segue uma sugestão de implementação da aplicação:
 
-![PR do exercício](my-pokedex-project.git)
+![PR do exercício](./my-pokedex-project.gif)
