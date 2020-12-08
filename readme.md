@@ -11,11 +11,8 @@
 ```html
       <h3 style="color:#ff0000">Danger</h3>
 ```
-This is <span style="color: red">written in red</span>
-This is *red*{: style="color: red"}
-This is a paragraph that for some reason we want blue
-{: .blue}
+<style>p{color:red;}</style>
+*foo*
 
-
-
-<span style="color:blue">some *blue* text</span>
+<!-- foo -->*bar*
+*baz*
