@@ -11,17 +11,10 @@
 ```html
       <h3 style="color:#ff0000">Danger</h3>
 ```
-// resets
-s { text-decoration:none; } //strike-through
-em { font-style: normal; font-weight: bold; } //italic emphasis
-
-
-// colors
-s { color: green }
-em { color: blue }
-
-~~This is green~~
-_this is blue_
+This is <span style="color: red">written in red</span>.
+This is *red*{: style="color: red"}.
+This is a paragraph that for some reason we want blue.
+{: .blue}
 
 
 
