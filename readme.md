@@ -11,6 +11,17 @@
 ```html
       <h3 style="color:#ff0000">Danger</h3>
 ```
+// resets
+s { text-decoration:none; } //strike-through
+em { font-style: normal; font-weight: bold; } //italic emphasis
+
+
+// colors
+s { color: green }
+em { color: blue }
+
+~~This is green~~
+_this is blue_
 
 
 
