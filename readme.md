@@ -12,7 +12,7 @@
       <h3 style="color:#ff0000">Danger</h3>
 ```
 <style>p{color:red;}</style>
-*foo*
+<p><em>foo</em></p>
 
 <!-- foo -->*bar*
-*baz*
+<p><em>baz</em></p>
