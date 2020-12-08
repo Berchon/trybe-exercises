@@ -1,18 +1,10 @@
 <img alt="capa da trybe" src="/images/CAPA_LINKEDIN_PERFIL_PESSOAL03.png" />
-<h1><span style="color:blue">Git dos exercícios que resolvi durante o curso da Trybe</span></h1>
+# Repositório dos exercícios que resolvi durante o curso de formação da Trybe
 
-```diff
-- text in red
-+- text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-```html
-      <h3 style="color:#ff0000">Danger</h3>
-```
-<style>p{color:red;}</style>
-<p><em>foo</em></p>
+## Descrição
+<p align="justify">
+      A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional de quem estuda conosco. 
+      Com o nosso Modelo de Sucesso    Compartilhado (MSC), a pessoa estudante tem a opção de pagar apenas quando já estiver trabalhando.
+</p>
+<p align="justify">Escrever uma breve descrição</p>
 
-<!-- foo -->*bar*
-<p><em>baz</em></p>
