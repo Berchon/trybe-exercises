@@ -40,11 +40,11 @@
 ## Status do andamento
 
 ## Lista de tarefas
-[x]Módulo 1
-[]Módulo 2
-[]Módulo 3
-[]Módulo 4
-[]Projetos
+- [x] Módulo 1
+- [] Módulo 2
+- [] Módulo 3
+- [] Módulo 4
+- [] Projetos
 
 ## Pré-requisitos
 
