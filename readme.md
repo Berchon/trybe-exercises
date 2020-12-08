@@ -41,10 +41,10 @@
 
 ## Lista de tarefas
 - [x] Módulo 1
-- [] Módulo 2
-- [] Módulo 3
-- [] Módulo 4
-- [] Projetos
+- [ ] Módulo 2
+- [ ] Módulo 3
+- [ ] Módulo 4
+- [ ] Projetos
 
 ## Pré-requisitos
 
