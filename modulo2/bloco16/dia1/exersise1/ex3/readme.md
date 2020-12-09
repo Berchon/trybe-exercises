@@ -1,12 +1,17 @@
-# Redux: Define an Action Creator :
-After creating an action, the next step is sending the action to the Redux store so it can update its state. In Redux, you define action creators to accomplish this. An action creator is simply a JavaScript function that returns an action. In other words, action creators create objects that represent action events.
+# Redux: Handle an Action in the Store :mouse:
+<p>
+After an action is created and dispatched, the Redux store needs to know how to respond to that action. This is the job of a reducer function. Reducers in Redux are responsible for the state modifications that take place in response to actions. A reducer takes state and action as arguments, and it always returns a new state. It is important to see that this is the only role of the reducer. It has no side effects — it never calls an API endpoint and it never has any hidden surprises. The reducer is simply a pure function that takes state and action, then returns new state.
+</p>
+<p>
+Another key principle in Redux is that state is read-only. In other words, the reducer function must always return a new copy of state and never modify state directly. Redux does not enforce state immutability, however, you are responsible for enforcing it in the code of your reducer functions. You'll practice this in later challenges.
+</p>
+---
+
+The code editor has the previous example as well as the start of a reducer function for you. Fill in the body of the reducer function so that if it receives an action of type 'LOGIN' it returns a state object with login set to true. Otherwise, it returns the current state. Note that the current state and the dispatched action are passed to the reducer, so you can access the action's type directly with action.type.
 
 ---
 
-Define a function named <code>actionCreator()</code> that returns the <code>action</code> object when called. :checkered_flag:
-
----
-
-<p>:heavy_check_mark: The function <code>actionCreator</code> should exist.</p>
-<p>:heavy_check_mark: Running the <code>actionCreator</code> function should return the action object.</p>
-<p>:heavy_check_mark: The returned action should have a key property type with value <code>LOGIN</code>.</p>
+<p>:heavy_check_mark: Calling the function loginAction should return an object with type property set to the string LOGIN.</p>
+<p>:heavy_check_mark: The store should be initialized with an object with property login set to false.</p>
+<p>:heavy_check_mark: ispatching loginAction should update the login property in the store state to true.</p>
+<p>:heavy_check_mark: If the action is not of type LOGIN, the store should return the current state.</p>
