@@ -1,12 +1,25 @@
-# Redux: Define an Action Creator :
-After creating an action, the next step is sending the action to the Redux store so it can update its state. In Redux, you define action creators to accomplish this. An action creator is simply a JavaScript function that returns an action. In other words, action creators create objects that represent action events.
+# Redux: Remove an Item from an ArrayPassed :boar:
+<p align="justify">
+Time to practice removing items from an array. The spread operator can be used here as well. Other useful JavaScript methods include slice() and concat().
+</P>
 
 ---
 
-Define a function named <code>actionCreator()</code> that returns the <code>action</code> object when called. :checkered_flag:
+<p align="justify">
+The reducer and action creator were modified to remove an item from an array based on the index of the item. Finish writing the reducer so a new state array is returned with the item at the specific index removed.
+</P>
 
 ---
 
-<p>:heavy_check_mark: The function <code>actionCreator</code> should exist.</p>
-<p>:heavy_check_mark: Running the <code>actionCreator</code> function should return the action object.</p>
-<p>:heavy_check_mark: The returned action should have a key property type with value <code>LOGIN</code>.</p>
+<p align="justify">
+:heavy_check_mark: 
+The Redux store should exist and initialize with a state equal to [0,1,2,3,4,5]
+</p>
+<p align="justify">
+:heavy_check_mark: 
+removeItem and immutableReducer both should be functions.
+</p>
+<p align="justify">
+:heavy_check_mark: 
+Dispatching the removeItem action creator should remove items from the state and should NOT mutate state.
+</p>

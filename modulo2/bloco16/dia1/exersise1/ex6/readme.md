@@ -1,12 +1,25 @@
-# Redux: Define an Action Creator :
-After creating an action, the next step is sending the action to the Redux store so it can update its state. In Redux, you define action creators to accomplish this. An action creator is simply a JavaScript function that returns an action. In other words, action creators create objects that represent action events.
+# Redux: Register a Store ListenerPassed :frog:
+<p align="justify">
+Another method you have access to on the Redux store object is store.subscribe(). This allows you to subscribe listener functions to the store, which are called whenever an action is dispatched against the store. One simple use for this method is to subscribe a function to your store that simply logs a message every time an action is received and the store is updated.
+</p>
 
 ---
 
-Define a function named <code>actionCreator()</code> that returns the <code>action</code> object when called. :checkered_flag:
+<p align="justify">
+Write a callback function that increments the global variable count every time the store receives an action, and pass this function in to the store.subscribe() method. You'll see that store.dispatch() is called three times in a row, each time directly passing in an action object. Watch the console output between the action dispatches to see the updates take place.
+</p>
 
 ---
 
-<p>:heavy_check_mark: The function <code>actionCreator</code> should exist.</p>
-<p>:heavy_check_mark: Running the <code>actionCreator</code> function should return the action object.</p>
-<p>:heavy_check_mark: The returned action should have a key property type with value <code>LOGIN</code>.</p>
+
+<p align="justify">
+:heavy_check_mark: 
+Dispatching the ADD action on the store should increment the state by 1.
+</p>
+<p align="justify">
+:heavy_check_mark: 
+There should be a listener function subscribed to the store using store.subscribe.
+</p>
+<p align="justify">
+:heavy_check_mark: 
+The callback to store.subscribe should also increment the global count variable as the store is updated.

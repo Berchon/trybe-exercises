@@ -1,17 +1,18 @@
 # Redux: Handle an Action in the Store :mouse:
-<p>
+<p align="justify">
 After an action is created and dispatched, the Redux store needs to know how to respond to that action. This is the job of a reducer function. Reducers in Redux are responsible for the state modifications that take place in response to actions. A reducer takes state and action as arguments, and it always returns a new state. It is important to see that this is the only role of the reducer. It has no side effects — it never calls an API endpoint and it never has any hidden surprises. The reducer is simply a pure function that takes state and action, then returns new state.
 </p>
-<p>
+<p align="justify">
 Another key principle in Redux is that state is read-only. In other words, the reducer function must always return a new copy of state and never modify state directly. Redux does not enforce state immutability, however, you are responsible for enforcing it in the code of your reducer functions. You'll practice this in later challenges.
 </p>
 ---
 
+<p align="justify">
 The code editor has the previous example as well as the start of a reducer function for you. Fill in the body of the reducer function so that if it receives an action of type 'LOGIN' it returns a state object with login set to true. Otherwise, it returns the current state. Note that the current state and the dispatched action are passed to the reducer, so you can access the action's type directly with action.type.
-
+</p>
 ---
 
-<p>:heavy_check_mark: Calling the function loginAction should return an object with type property set to the string LOGIN.</p>
-<p>:heavy_check_mark: The store should be initialized with an object with property login set to false.</p>
-<p>:heavy_check_mark: ispatching loginAction should update the login property in the store state to true.</p>
-<p>:heavy_check_mark: If the action is not of type LOGIN, the store should return the current state.</p>
+<p align="justify">:heavy_check_mark: Calling the function loginAction should return an object with type property set to the string LOGIN.</p>
+<p align="justify">:heavy_check_mark: The store should be initialized with an object with property login set to false.</p>
+<p align="justify">:heavy_check_mark: ispatching loginAction should update the login property in the store state to true.</p>
+<p align="justify">:heavy_check_mark: If the action is not of type LOGIN, the store should return the current state.</p>
