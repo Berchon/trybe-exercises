@@ -1,0 +1,19 @@
+1. Instalar o pacote no projeto:
+npm install --save redux-devtools-extension
+
+
+2. Acrescentar a importação dos componentes:
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+
+OBS. No vídeo ainda tem a seguinte importação:
+import logger from 'redux-logger';
+
+
+3. Fazer o createStore da seguinte forma:
+const store = createStore(reducer, composeWithDevTools(
+  applyMiddleware(...middleware),
+));
+
+OBS. No vídeo o store ´e criado da seguinte forma:
+const store = createStore(reducer, composeWithDevTools(applyMiddleware(logger)));
