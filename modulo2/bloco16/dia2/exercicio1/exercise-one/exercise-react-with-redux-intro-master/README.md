@@ -1,3 +1,6 @@
+# Aplicação em execução:
+<img src="./images/animation.gif">
+<p></p>
 Esse é um projeto para o conteúdo da semana 16, sobre `Redux com react`.
 
 ### Antes de iniciar
