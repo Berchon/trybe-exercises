@@ -1,3 +1,5 @@
+# Resultado final da aplicação
+![Animação](./animation.gif)
 # Agora, a prática
 Você vai implementar de forma simplificada uma [Pokedex!!](https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9dex) Para os que não estão familiarizados com o universo `Pokemon` , a `Pokedex` é uma enciclopédia de todos os pokemons na natureza. Para o seu caso, a sua aplicação precisa mostrar todos os pokemons presentes no arquivo `data.js` mencionado acima.
 
