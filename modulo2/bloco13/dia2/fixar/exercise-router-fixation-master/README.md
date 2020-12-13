@@ -1,3 +1,6 @@
+# Resultado final da aplicação
+![Animação](./animation.gif)
+
 Esse é um projeto para o conteúdo de `React Router Dom`.
 
 ### Antes de iniciar
