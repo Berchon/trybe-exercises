@@ -1,3 +1,6 @@
+# Resultado final da aplicação
+![Animação](./animation.gif)
+
 # Exemplo de Aula
 
 ## To do list
