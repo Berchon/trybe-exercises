@@ -1,4 +1,6 @@
 # BÔNUS
+Fiz somente a dos estados para o store usando o react-redux
+
 Refatore a aplicação do Todo List.
 * Os testes em redux não serão necessários nesse momento. Você aprenderá sobre eles ao longo do bloco.
 * Adicione filtros para apresentar apenas as tarefas concluídas e outro para exibir as tarefas em progresso.
