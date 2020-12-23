@@ -12,7 +12,7 @@ class App extends Component {
       <Switch>
           <Route path="/users/:id" render={(props) => <Users {...props} greetingMessage="Good Morning" />} />
           <Route exact path="/users/" render={(props) => <Users {...props} greetingMessage="Good Morning" />} />
-          <Route path="/strictAccess" render={(props) => <StrictAccess {...props} users={ {username: 'j1oao', password: '1234'} } />} />
+          <Route path="/strictAccess" render={(props) => <StrictAccess {...props} users={ {username: 'joao', password: '1234'} } />} />
           
           <Route path="/about" component={About} />
           <Route exact path="/" component={Home} />

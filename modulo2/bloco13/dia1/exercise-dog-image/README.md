@@ -1,3 +1,6 @@
+# Resultado final da aplicação
+![Animação](./animation.gif)
+
 Esse é um projeto para o conteúdo de `Ciclo de vida de componentes em React`.
 
 ### Antes de iniciar

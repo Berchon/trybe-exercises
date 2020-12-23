@@ -1,3 +1,6 @@
+# Resultado final da aplicação
+![Animação](./animation.gif)
+
 # Bônus
 Agora você irá incrementar o código que foi feito durante a aula ao vivo.
 * Faça um campo que recebe um valor e esse será o valor aplicado ao botão incremento.
