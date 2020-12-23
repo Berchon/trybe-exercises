@@ -1,4 +1,4 @@
-<img alt="Exemplo da aplicação" src="./animation.gif" />
+<img alt="Exemplo da aplicação" src="./aplicacao.png" />
 
 # Hello world com react
 
