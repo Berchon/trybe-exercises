@@ -1,13 +1,13 @@
-# Dia 2 - Componentes React
+# Dia 1 - Componentes com estado e eventos
 
 ## Descrição
 <p align="justify">
-      Uma aplicação desenvolvida em React é composta de componentes. Ou seja, eles são as peças de lego que serão combinadas de forma a construir toda a aplicação! Logo, saber usar componentes é saber montar do zero uma aplicação React. A checagem de tipos é outra parte disso: ela economiza muito tempo de desenvolvimento, protegendo quem desenvolve de cometer erros facilmente evitáveis na utilização dos componentes.
+      O estado dos componentes é o que dá dinamismo às páginas do React, de acordo com a interação de quem usa. Ele é uma abstração essencial para o desenvolvimento de páginas mais ricas e interativas, que respondem a inputs do usuário e se atualizam em função disso.
 </p>
 
 
 ## Sumário
-- [Dia 2 - Componentes React](#dia-2---componentes-react)
+- [Dia 1 - Componentes com estado e eventos](#dia-1---componentes-com-estado-e-eventos)
 - [Descrição](#descrição)
 - [Sumário](#sumário)
 - [Tecnologias utilizadas nesse dia](#tecnologias-utilizadas-nesse-dia)
@@ -22,11 +22,11 @@
 - React
 
 ## Conteúdos abordados nesse dia
-1. Definição e props
-2. Props
-3. Composição de componentes
-4. Lista de componentes e chaves
-5. PropTypes, checagem de tipos.
+1. Introdução ao estado
+2. Introdução aos eventos
+3. Vinculando funções à classe com this e bind no constructor
+4. Unindo componentes com estados e eventos
+5. State vs Props
 
 ## Criar aplicação react
 <p align="justify">

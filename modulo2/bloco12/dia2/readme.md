@@ -1,13 +1,16 @@
-# Dia 2 - Componentes React
+# Dia 2 - Formulários no React
 
 ## Descrição
 <p align="justify">
-      Uma aplicação desenvolvida em React é composta de componentes. Ou seja, eles são as peças de lego que serão combinadas de forma a construir toda a aplicação! Logo, saber usar componentes é saber montar do zero uma aplicação React. A checagem de tipos é outra parte disso: ela economiza muito tempo de desenvolvimento, protegendo quem desenvolve de cometer erros facilmente evitáveis na utilização dos componentes.
+      Aprofundar seus conhecimentos no React não é uma tarefa fácil. Sabemos que o nível de complexidade que ele traz em um primeiro momento é alto. O importante é que fique claro que essa habilidade vai ser um grande diferencial para vocês no mercado de trabalho e irá ajudar na construção de front-ends ainda mais robustos.
+</p>
+<p align="justify">
+      Saber capturar eventos e criar formulários que os usam é fundamental para que você esteja preparado para as diferentes demandas do mercado.
 </p>
 
 
 ## Sumário
-- [Dia 2 - Componentes React](#dia-2---componentes-react)
+- [Dia 2 - Formulários no React](#dia-2---formulários-no-react)
 - [Descrição](#descrição)
 - [Sumário](#sumário)
 - [Tecnologias utilizadas nesse dia](#tecnologias-utilizadas-nesse-dia)
@@ -22,11 +25,9 @@
 - React
 
 ## Conteúdos abordados nesse dia
-1. Definição e props
-2. Props
-3. Composição de componentes
-4. Lista de componentes e chaves
-5. PropTypes, checagem de tipos.
+1. Componentes controlados
+2. event handlers genéricos
+3. Transmitindo informações de componente filho para componente pai
 
 ## Criar aplicação react
 <p align="justify">
