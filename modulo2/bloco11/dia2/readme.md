@@ -1,4 +1,4 @@
-# Bloco 11 - Componentes React
+# Dia 2 - Componentes React
 
 ## Descrição
 <p align="justify">
@@ -7,9 +7,9 @@
 
 
 ## Sumário
-- [Bloco 11 - Introdução ao React](#bloco-11---introdução-ao-react)
+- [Dia 2 - Introdução ao React](#dia-2---componentes-react)
 - [Descrição](#descrição)
-- [Sumario](#sumário)
+- [Sumário](#sumário)
 - [Tecnologias utilizadas nesse dia](#tecnologias-utilizadas-nesse-dia)
 - [Conteúdos abordados nesse dia](#conteúdos-abordados-nesse-dia)
 - [Criar aplicação react](#criar-aplicação-react)
