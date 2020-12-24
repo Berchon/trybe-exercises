@@ -1,0 +1,22 @@
+.content1 {
+    background-color: white;
+    border-color: rgb(214, 214, 214);
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    display: flex;
+    flex-grow: 1.22;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 5px 15px;
+}
+
+.content-text {
+    width: 220px;
+}
+
+.content-img {
+    width: 100px;
+}

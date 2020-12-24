@@ -11,7 +11,7 @@
 - [Descrição](#descrição)
 - [Sumario](#sumário)
 - [Tecnologias utilizadas nesse dia](#tecnologias-utilizadas-nesse-dia)
-- [Exercícios resolvidos nesse dia](#exercícios-resolvidos-nesse-dia)
+- [Conteúdos abordados nesse dia](#conteúdos-abordados-nesse-dia)
 - [Criar aplicação react](#criar-aplicação-react)
 - [Como rodar a aplicação](#como-rodar-a-aplicação)
 
@@ -21,7 +21,7 @@
 - Javascript
 - React
 
-## Exercícios resolvidos nesse dia
+## Conteúdos abordados nesse dia
 1. Gerenciador de pacotes
 2. Conceitos iniciais
 3. JSX
