@@ -17,7 +17,7 @@
 ## Sumário
 - [Bloco 11 - Introdução ao React](#bloco-11---introdução-ao-react)
 - [Descrição](#descrição)
-- [Sumario](#sumário)
+- [Sumário](#sumário)
 - [Tecnologias utilizadas nesse bloco](#tecnologias-utilizadas-nesse-bloco)
 - [Conteúdos abordados nesse bloco](#conteúdos-abordados-nesse-bloco)
 
