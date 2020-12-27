@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+.list-div-main {
+  align-content: flex-end;
+  align-items: center;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.list-div-content {
+  background-color: #616698;
+  box-shadow: 42px 38px 49px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.list-title {
+  background-color: white;
+  color: #616698;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.13em;
+  line-height: 48px;
+  height: 48px;
+  margin: 40px 0 0 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.list-fieldset-container {
+  box-sizing: border-box;
+  border: 0.75px solid white;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: space-between;
+  letter-spacing: 0.13em;
+  line-height: 16px;
+  margin: 40px;
+  padding: 30px 40px;
+  width: 520px;
+}
+
+.list-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.list-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.list-container1:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.list-container2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  width: 35%;
+}
+
+.list-container2:last-child {
+  margin-bottom: 0;
+}
+
+.list-label-text {
+  box-sizing: border-box;
+  align-items: center;
+  color: white;
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: 0.13em;
+  line-height: 12px;
+  width: 100%;
+}
+
+.list-input-container {
+  align-items: center;
+  background-color: white;
+  border: 0.75px solid #d5d9ff;
+  color: #8b93e1;
+  display: flex;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  height: 16px;
+  line-height: 15px;
+  letter-spacing: 0.13em;
+  padding: 7px;
+  text-align: left;
+  width: 100%;
+}
+
+.list-input-container:focus {
+  border-color: #616698;
+  outline: none;
+}
+
+.list-textarea-container {
+  align-items: flex-end;
+  height: 68px;
+  resize: none;
+}
