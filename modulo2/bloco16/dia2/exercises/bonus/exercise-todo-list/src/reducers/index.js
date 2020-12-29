@@ -1,6 +1,6 @@
-// src/store/reducers/index.js
 import { combineReducers } from 'redux';
+import listTodo from './listTodo';
 
-import todo from './todo';
+const rootReducer = combineReducers({ listTodo });
 
-export default combineReducers({todo});
+export default rootReducer;

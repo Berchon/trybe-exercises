@@ -1,0 +1,28 @@
+.list-task {
+  /* background-color: rebeccapurple; */
+}
+
+.task-item {
+  border-bottom: solid 1px rgb(210, 210, 210);
+  color: rgb(50, 50, 50);
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+}
+
+.task-item:first-child{
+  border-top: solid 1px rgb(210, 210, 210);;
+}
+
+.task-item:nth-child(odd) {
+  background-color: rgb(235, 235, 235);
+}
+
+.task-item:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}
+
+.task-item-text {
+  flex-grow: 1;
+  text-align: left;
+}
