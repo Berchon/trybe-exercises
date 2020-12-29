@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px 15px;
+}
+
+.filters {
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 8px;
+  width: 150px;
+  outline: none;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.filters:hover {
+  cursor: pointer;
+  color: white
+}
+
+.filters:active {
+  transform: translate(1px, 1px);
+}
+
+.filters-all {
+  background-color: rgba(164, 164, 164, 0.1);
+  color: rgb(50, 50, 50);
+  border-color: rgb(164, 164, 164);
+  transition: 0.3s;
+}
+
+.filters-all:hover {
+  background-color: rgb(164, 164, 164);
+  border-color: rgb(164, 164, 164);
+  transition: 0.3s;
+}
+
+.filters-todo {
+  background-color: rgba(58, 149, 215, 0.1);
+  color: rgb(58, 149, 215);
+  border-color: rgb(58, 149, 215);
+  transition: 0.3s;
+}
+
+.filters-todo:hover {
+  background-color: rgb(58, 149, 215);
+  border-color: rgb(58, 149, 215);
+  transition: 0.3s;
+}
+
+.filters-doing {
+  background-color: rgba(252, 207, 102, 0.1);
+  color: rgb(247, 184, 37);
+  border-color: rgb(252, 207, 102);
+  transition: 0.3s;
+}
+
+.filters-doing:hover {
+  background-color: rgb(252, 207, 102);
+  border-color: rgb(252, 207, 102);
+  transition: 0.3s;
+}
+
+.filters-done {
+  background-color: rgba(28, 173, 152, 0.1);
+  color: rgb(28, 173, 152);
+  border-color: rgb(28, 173, 152);
+  transition: 0.3s;
+}
+
+.filters-done:hover {
+  background-color: rgb(28, 173, 152);
+  border-color: rgb(28, 173, 152);
+  transition: 0.3s;
+}
+
+.filters-erase {
+  background-color: rgba(252, 113, 107, 0.1);
+  color: rgb(252, 113, 107);
+  border-color: rgb(252, 113, 107);
+  transition: 0.3s;
+}
+
+.filters-erase:hover {
+  background-color: rgb(252, 113, 107);
+  border-color: rgb(252, 113, 107);
+  transition: 0.3s;
+}

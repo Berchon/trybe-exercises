@@ -1,19 +1,38 @@
-// src/App.js
-import React from 'react';
-import { Provider } from 'react-redux';
+import React, { Component } from 'react';
+import InsertTask from './components/InsertTask';
+import ListTask from './components/ListTask';
+import Filters from './components/Filters';
+import './App.css';
 
-import store from './store';
+class App extends Component {
+  // constructor() {
+  //   super();
+  //   this.addTodo = this.addTodo.bind(this);
+  //   this.state = {
+  //     listTodo: [],
+  //   };
+  // }
 
-import AddTodo from './components/AddTodo';
-import FilterTodos from './components/FilterTodos';
-import TodoList from './components/TodoList';
+  // addTodo(task) {
+  //   this.setState((state) => ({ listTodo: [...state.listTodo, task] }));
+  // }
 
-const App = () => (
-  <Provider store={store}>
-    <AddTodo />
-    <FilterTodos />
-    <TodoList />
-  </Provider>
-);
+  render() {
+    return (
+      <div className="App">
+        <div className="page">
+          <header>
+            <h1 className="title">To Do List</h1>
+            <InsertTask />  {/* addTodo={(todo) => this.addTodo(todo)} /> */}
+            <Filters />
+          </header>
+          <main>
+            <ListTask /> {/* listTodo={ this.state.listTodo }/> */}
+          </main>
+        </div>
+      </div>
+    );
+  }
+}
 
 export default App;

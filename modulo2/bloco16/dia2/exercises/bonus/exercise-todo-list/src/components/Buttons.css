@@ -1,0 +1,41 @@
+.images {
+  height: 35px;
+  margin-left: 15px;
+  padding: 6px;
+}
+
+.images:hover {
+  cursor: pointer;
+}
+
+.todo-border {
+  background-color: rgba(58, 149, 215, 0.1);
+  border-width: 1px;
+  border-color: rgb(58, 149, 215);
+  border-style: solid;
+  padding: 5px;
+}
+
+.doing-border {
+  background-color: rgba(252, 207, 102, 0.1);
+  border-width: 1px;
+  border-color: rgb(252, 207, 102);
+  border-style: solid;
+  padding: 5px;
+}
+
+.done-border {
+  background-color: rgba(28, 173, 152, 0.1);
+  border-width: 1px;
+  border-color: rgb(28, 173, 152);
+  border-style: solid;
+  padding: 5px;
+}
+
+.erase-border {
+  background-color: rgba(252, 113, 107, 0.1);
+  border-width: 1px;
+  border-color: rgb(252, 113, 107);
+  border-style: solid;
+  padding: 5px;
+}
