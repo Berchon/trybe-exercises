@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.form-customer-container {
+  display: flex;
+  margin: 0 20px 20px;
+  text-align: left;
+}
+
+.form-customer-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-customer-label {
+  color: rgb(124, 124, 124);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.form-customer-input {
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  color: rgb(124, 124, 124);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-bottom: 7px;
+  outline: none;
+  padding: 7px;
+  width: 100%;
+}
+
+.form-customer-button {
+  background-color: #FA92D0;
+  border-radius: 4px;
+  border-style: none;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin-top: 25px;
+  outline: none;
+  padding: 12px;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.form-customer-button:hover {
+  background-color: #1e81ceff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-customer-button:active {
+  transform: translate(2px, 2px);
+  transition: 0.3s;
+}
+
+.form-customer-button-exit {
+  margin-top: 5px;
+}
+
+.eraseIcon {
+  border-radius: 50%;
+  align-self: flex-end;
+  width: 15px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.eraseIcon:hover {
+  cursor: pointer;
+}
