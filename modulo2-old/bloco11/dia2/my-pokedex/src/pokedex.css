@@ -1,9 +1,0 @@
-.content {
-    background:rgb(241, 241, 241);
-    color:gray;
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Inconsolata', monospace;
-    font-weight:bold;
-    justify-content: space-evenly;
-}
