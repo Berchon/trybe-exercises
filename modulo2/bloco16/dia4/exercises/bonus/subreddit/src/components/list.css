@@ -1,0 +1,20 @@
+.list {
+  border-color: rgb(96, 96, 96);
+  border-style: none none solid;
+  border-width: 1px;
+  color:rgb(48, 48, 48);
+  display: flex;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 30px;
+  text-align: left;
+}
+
+.list:first-child {
+  border-style: solid none solid;
+  margin-top: 20px;
+}
+
+.list:nth-child(odd) {
+  background-color: #d1daec;
+}

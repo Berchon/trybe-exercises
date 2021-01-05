@@ -1,0 +1,25 @@
+.App {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.App-container {
+  background-color: #bfcde9;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  margin: 10px 0;
+  width: 1000px;
+}
+
+.App-title {
+  color: #282c34;
+}
