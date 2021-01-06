@@ -3,7 +3,7 @@
 
 # Exemplo de Aula
 
-## To do list
+## Imagens de doguinhos
 <p align="justify">
 Agora, será feito os testes na aplicação de obter imagens de doguinhos. Essa aplicação utilizxa uma API e precisa usar estruturas assíncronas.
 </p>
