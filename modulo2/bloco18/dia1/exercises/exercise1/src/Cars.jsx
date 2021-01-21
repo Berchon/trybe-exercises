@@ -4,8 +4,8 @@ import React from 'react';
 import carBlue from './images/carBlue.jpeg';
 import carRed from './images/carRed.jpeg';
 import carYellow from './images/carYellow.jpeg';
-import './App.css';
 import CarContext from './Context';
+import './App.css';
 
 function Cars() {
   return (
