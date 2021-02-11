@@ -1,0 +1,31 @@
+.search-container {
+  background-color: rgb(20, 20, 20);
+  border-style: solid;
+  border-color: #fde500;
+  border-width: 2px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  width: 1000px
+}
+
+.search-text {
+  background-color: rgb(20, 20, 20);
+  flex-grow: 2;
+  border: none;
+  color: #fde500;
+  font-size: 25px;
+  outline: hidden;
+  text-align: center;
+}
+
+.search-text:active {
+  outline: hidden;
+}
+
+.search-icon {
+  width: 15px;
+}

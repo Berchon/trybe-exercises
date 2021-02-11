@@ -1,7 +1,9 @@
 import React, { useEffect, useState, useContext } from 'react';
 import context from '../../context';
+import './style.css';
 
 const Filter = () => {
+  const firstCaracter = 0;
   const arrayColumns = [
     'population', 'orbital_period', 'diameter', 'rotation_period', 'surface_water',
   ];
@@ -37,47 +39,60 @@ const Filter = () => {
   };
 
   return (
-    <div>
-      <label htmlFor="planetInformation">
-        <select
-          id="planetInformation"
-          data-testid="column-filter"
-          value={ column }
-          onChange={ (event) => filterForms('column', event.target.value) }
-          disabled={ (!arraySelectColumns.length) }
-        >
-          {
-            arraySelectColumns.map((element) => (
-              <option key={ element } value={ element }>{element}</option>
-            ))
-          }
-        </select>
-      </label>
-      <label htmlFor="relationalOperator">
-        <select
-          id="relationalOperator"
-          data-testid="comparison-filter"
-          value={ comparison }
-          onChange={ (event) => filterForms('comparison', event.target.value) }
-          disabled={ (!arraySelectColumns.length) }
-        >
-          <option value="maior que">maior que</option>
-          <option value="menor que">menor que</option>
-          <option value="igual a">igual a</option>
-        </select>
-      </label>
+    <div className="filter-container">
+      {/* <label htmlFor="planetInformation"> */}
+      <select
+        className="filter-content filter-select filter-column"
+        id="planetInformation"
+        data-testid="column-filter"
+        value={ column }
+        onChange={ (event) => filterForms('column', event.target.value) }
+        disabled={ (!arraySelectColumns.length) }
+      >
+        {
+          arraySelectColumns.map((element) => (
+            <option key={ element } value={ element }>
+              {
+                element
+                  .replace('_', ' ')
+                  .replace(
+                    element.charAt(firstCaracter),
+                    element.charAt(firstCaracter).toUpperCase(),
+                  )
+              }
+            </option>
+          ))
+        }
+      </select>
+      {/* </label> */}
+      {/* <label htmlFor="relationalOperator"> */}
+      <select
+        className="filter-content filter-select filter-comparison"
+        id="relationalOperator"
+        data-testid="comparison-filter"
+        value={ comparison }
+        onChange={ (event) => filterForms('comparison', event.target.value) }
+        disabled={ (!arraySelectColumns.length) }
+      >
+        <option value="maior que">maior que</option>
+        <option value="menor que">menor que</option>
+        <option value="igual a">igual a</option>
+      </select>
+      {/* </label> */}
 
-      <label htmlFor="valueFilter">
-        <input
-          type="number"
-          id="valueFilter"
-          data-testid="value-filter"
-          value={ value }
-          onChange={ (event) => filterForms('value', event.target.value) }
-          disabled={ (!arraySelectColumns.length) }
-        />
-      </label>
+      {/* <label htmlFor="valueFilter"> */}
+      <input
+        className="filter-content filter-value"
+        type="number"
+        id="valueFilter"
+        data-testid="value-filter"
+        value={ value }
+        onChange={ (event) => filterForms('value', event.target.value) }
+        disabled={ (!arraySelectColumns.length) }
+      />
+      {/* </label> */}
       <button
+        className="filter-content filter-button"
         type="button"
         data-testid="button-filter"
         onClick={ handleClick }

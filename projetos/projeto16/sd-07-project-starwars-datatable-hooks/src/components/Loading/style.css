@@ -1,0 +1,60 @@
+.loading-logo {
+  position: absolute;
+  left: calc(50vw - 100px);
+  top: 50vh;
+  width: 200px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .loading-logo-1 {
+    animation: loading-spin-counter-clock infinite 1.5s linear;
+    /* box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.2); */
+    text-shadow: 0 0 2px 2px rgba(255, 0, 0, 0.2);
+  }
+
+  .loading-logo-2 {
+    animation: loading-spin-clock infinite 2.5s linear;
+  }
+
+  .loading-logo-3 {
+    animation: loading-spin-clock infinite 1s linear;
+  }
+
+  .loading-logo-4 {
+    animation: loading-spin-counter-clock infinite 2s linear;
+  }
+
+  .loading-logo-5 {
+    animation: loading-blink infinite 5s linear;
+  }
+}
+
+@keyframes loading-spin-clock {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes loading-spin-counter-clock {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-blink {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  50% {
+    color: rgb(255, 0, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}

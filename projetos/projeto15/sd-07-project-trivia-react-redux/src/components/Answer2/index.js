@@ -1,5 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import imgCorrect from './images/correct.svg';
+import imgWrong from './images/wrong.svg';
 import './style.css';
 
 class Answer2 extends React.Component {
@@ -39,20 +41,20 @@ class Answer2 extends React.Component {
         type="button"
         className={ `answer-box background-${index} ${this.buttonClicked(index)}` }
         data-testid={ dataTestID }
-        disabled={ disableButtons }
+        // disabled={ disableButtons }
         onClick={ () => this.handleClick(index) }
         onKeyDown={ () => this.handleClick(index) }
       >
 
-        <span>1</span>
+        <span className="imgAnswer" />
         <span className="message">{text}</span>
         <span>
           {
             ((disableButtons) && (isClicked === index)
             && (
               (index === correctAnswerNumber)
-                ? ('C')
-                : ('E')
+                ? (<img src={ imgCorrect } alt="Acertou" className="imgAnswer" />)
+                : (<img src={ imgWrong } alt="Errou" className="imgAnswer" />)
             ))
           }
         </span>

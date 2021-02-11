@@ -1,17 +1,37 @@
 import React from 'react';
 import Provider from './Provider';
-import { Table, Search, Filter, ListFilters, Order } from './components';
+import {
+  Table,
+  Search,
+  Filter,
+  ListFilters,
+  Order,
+  StarBackground,
+  GlassEffect,
+  Loading,
+} from './components';
 import './App.css';
 
 function App() {
   return (
-    <Provider>
-      <Search />
-      <Filter />
-      <ListFilters />
-      <Order />
-      <Table />
-    </Provider>
+    <div className="App">
+      <StarBackground />
+      <div className="new-position">
+        <Provider>
+          <h2 className="title">stars wars</h2>
+          <GlassEffect>
+            <Search />
+            <Filter />
+            <div className="list-filters">
+              <ListFilters />
+            </div>
+            <Order />
+          </GlassEffect>
+          <Table />
+        </Provider>
+        <Loading />
+      </div>
+    </div>
   );
 }
 

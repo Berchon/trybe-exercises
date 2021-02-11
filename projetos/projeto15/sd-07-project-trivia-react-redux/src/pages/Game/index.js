@@ -49,21 +49,7 @@ class Game extends Component {
   clearTimer(ID) {
     const timeOut = 30000;
     setTimeout(() => {
-      console.log('parou pelo setTimeOut da linha 51');
       const { timer } = this.state;
-      // const curQuestion = questions[turn];
-      // let index = 1;
-      // if (curQuestion.correct_answer === 1) index += 1;
-
-      // this.handleClickAnswer(index);
-      // const { intervalID } = this.state;
-      // clearInterval(intervalID);
-      // this.setState({
-      //   visibility: '',
-      //   next: true,
-      //   questionAnsered: true,
-      // timer: 30,
-      // });
 
       clearInterval(ID);
       this.setState({
@@ -84,7 +70,6 @@ class Game extends Component {
     this.setState({ questions: results });
 
     const ID = this.changeTimer();
-    console.log('clear timer da handleApiRequisition');
     this.clearTimer(ID);
     this.setState({
       isFetching: false,
