@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -15,7 +13,7 @@
    height="404"
    viewBox="0 0 404 404"
    sodipodi:docname="loading-logo.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -24,7 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -78,7 +76,8 @@
      fit-margin-top="2"
      fit-margin-left="2"
      fit-margin-right="2"
-     fit-margin-bottom="2">
+     fit-margin-bottom="2"
+     inkscape:document-rotation="0">
     <sodipodi:guide
        position="202,324.46634"
        orientation="1,0"
@@ -101,7 +100,7 @@
      style="display:inline;opacity:1"
      transform="translate(-198,-98)">
     <path
-       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#106dff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#f20709;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="M 202 73 C 130.81449 73 73 130.81449 73 202 C 73 273.18551 130.81449 331 202 331 C 273.18551 331 331 273.18551 331 202 C 331 130.81449 273.18551 73 202 73 z M 197 83.111328 L 197 93.189453 A 109 109 0 0 0 173.78906 96.714844 L 175.61133 103.51562 A 102 102 0 0 0 129.91992 129.91992 L 124.92578 124.92578 A 109 109 0 0 0 110.26367 143.26367 L 101.50195 138.20508 C 121.76696 106.32185 156.78978 84.769497 197 83.111328 z M 207 83.111328 C 247.21022 84.769497 282.23304 106.32185 302.49805 138.20508 L 293.73633 143.26367 A 109 109 0 0 0 279.07422 124.92578 L 274.08008 129.91992 A 102 102 0 0 0 228.36719 103.5918 L 230.21094 96.714844 A 109 109 0 0 0 207 93.154297 L 207 83.111328 z M 192 122 L 212 122 L 206.95703 162.3457 A 40 40 0 0 1 233.86523 177.87891 L 266.28125 153.33984 L 276.28125 170.66016 L 238.81641 186.4668 A 40 40 0 0 1 242 202 A 40 40 0 0 1 238.85156 217.54883 L 276.28125 233.33984 L 266.28125 250.66016 L 233.85352 226.11328 A 40 40 0 0 1 206.95508 241.64258 L 212 282 L 192 282 L 197.04297 241.6543 A 40 40 0 0 1 170.13477 226.12109 L 137.71875 250.66016 L 127.71875 233.33984 L 165.18359 217.5332 A 40 40 0 0 1 162 202 A 40 40 0 0 1 165.14844 186.45117 L 127.71875 170.66016 L 137.71875 153.33984 L 170.14648 177.88672 A 40 40 0 0 1 197.04492 162.35742 L 192 122 z M 96.501953 146.86328 L 105.23633 151.90625 A 109 109 0 0 0 96.714844 173.78906 L 103.5918 175.63281 A 102 102 0 0 0 100 202 A 102 102 0 0 0 103.51562 228.38867 L 96.714844 230.21094 A 109 109 0 0 0 105.23633 252.09375 L 96.501953 257.13672 C 87.881462 240.65781 83 221.90641 83 202 C 83 182.09359 87.881462 163.34219 96.501953 146.86328 z M 307.49805 146.86328 C 316.11854 163.34219 321 182.09359 321 202 C 321 221.90641 316.11854 240.65781 307.49805 257.13672 L 298.73438 252.07617 A 109 109 0 0 0 307.28516 230.21094 L 300.4082 228.36719 A 102 102 0 0 0 304 202 A 102 102 0 0 0 300.48438 175.61133 L 307.28516 173.78906 A 109 109 0 0 0 298.76367 151.90625 L 307.49805 146.86328 z M 110.26367 260.73633 A 109 109 0 0 0 124.92578 279.07422 L 129.91992 274.08008 A 102 102 0 0 0 175.63281 300.4082 L 173.78906 307.28516 A 109 109 0 0 0 197 310.8457 L 197 320.88867 C 156.78978 319.2305 121.76696 297.67815 101.50195 265.79492 L 110.26367 260.73633 z M 293.76367 260.75195 L 302.49805 265.79492 C 282.23304 297.67815 247.21022 319.2305 207 320.88867 L 207 310.81055 A 109 109 0 0 0 230.21094 307.28516 L 228.38867 300.48438 A 102 102 0 0 0 274.08008 274.08008 L 279.07422 279.07422 A 109 109 0 0 0 293.76367 260.75195 z "
        transform="translate(198,98)"
        id="path860" />

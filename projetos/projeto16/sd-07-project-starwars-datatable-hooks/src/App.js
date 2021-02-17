@@ -29,7 +29,7 @@ function App() {
           </GlassEffect>
           <Table />
         </Provider>
-        <Loading />
+        {/* <Loading /> */}
       </div>
     </div>
   );

@@ -7,6 +7,7 @@
   justify-content: center;
   /* margin: 0; */
   /* padding: 0; */
+  overflow: hidden;
   text-align: center;
   min-width: 100vw;
 }
@@ -20,6 +21,7 @@
   left: 0;
   /* margin: 10px 200px; */
   padding: 10px 20px;
+  overflow: hidden;
   position: absolute;
   top: 0;
   width: 100vw;
@@ -34,7 +36,7 @@
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  -webkit-text-stroke: 2px #fde500;
+  -webkit-text-stroke: 2px rgb(253, 229, 0);
   z-index: 1;
 }
 
