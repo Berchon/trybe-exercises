@@ -4,7 +4,7 @@ import md5 from 'crypto-js/md5';
 import { ConfigForm, Title } from '../../components';
 import { getStorage, setStorage } from '../../services';
 import './style.css';
-​
+
 class Config extends Component {
   constructor(props) {
     super(props);
@@ -13,31 +13,31 @@ class Config extends Component {
       difficulty: '',
       category: '',
       type: '',
-      url: 'https://opentdb.com/api.php?amount=5&token=',
+      // url: 'https://opentdb.com/api.php?amount=5&token=',
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
-​
+
   async handleClick() {
     const state = await getStorage('state');
     const { email } = state.player;
     const token = await getStorage('token');
-​
+
     const gravatarHash = md5(email);
-​
+
     const ranking = {
       name: state.player.name,
       score: 0,
       picture: `https://www.gravatar.com/avatar/${gravatarHash}`,
     };
-​
-    const config = await getStorage('config');
-​
+
+    const config = {}; // await getStorage('config');
+
     const oldRanking = getStorage('ranking');
     const newRanking = [...oldRanking];
     newRanking.push(ranking);
-​
+
     const baseURL = 'https://opentdb.com/api.php?';
     const { amount, difficulty, category, type } = this.state;
     let dif = '';
@@ -49,17 +49,17 @@ class Config extends Component {
     const endURL = '&token=';
     const custom = `${baseURL}amount=${amount}${cat}${dif}${ty}${endURL}`;
     config.url = custom;
-​
+
     setStorage('state', state);
     setStorage('token', token);
     setStorage('ranking', newRanking);
     setStorage('config', config);
   }
-​
+
   handleChange({ name, value }) {
     this.setState({ [name]: value });
   }
-​
+
   contentMain() {
     return (
       <div className="config-content-child config-main">
@@ -71,7 +71,7 @@ class Config extends Component {
       </div>
     );
   }
-​
+
   renderPlay() {
     return (
       <div className="config-footer">
@@ -88,7 +88,7 @@ class Config extends Component {
       </div>
     );
   }
-​
+
   render() {
     return (
       <div className="config-container">
@@ -101,5 +101,5 @@ class Config extends Component {
     );
   }
 }
-​
+
 export default Config;

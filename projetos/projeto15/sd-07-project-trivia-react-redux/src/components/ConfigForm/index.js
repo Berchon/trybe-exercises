@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
 
-​class ConfigForm extends Component {
+class ConfigForm extends Component {
   renderDificult() {
     const { change } = this.props;
     return (
@@ -24,7 +24,7 @@ import './style.css';
       </div>
     );
   }
-​
+
   renderType() {
     const { change } = this.props;
     return (
@@ -40,7 +40,7 @@ import './style.css';
       </div>
     );
   }
-​
+
   renderQuantity() {
     const { change } = this.props;
     return (
@@ -59,7 +59,7 @@ import './style.css';
       </div>
     );
   }
-​
+
   renderCategory() {
     const { change } = this.props;
     return (
@@ -97,7 +97,7 @@ import './style.css';
       </div>
     );
   }
-​
+
   render() {
     return (
       <div className="config-form">
@@ -109,9 +109,9 @@ import './style.css';
     );
   }
 }
-​
+
 ConfigForm.propTypes = {
   change: PropTypes.func.isRequired,
 };
-​
+
 export default ConfigForm;
