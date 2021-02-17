@@ -5,28 +5,13 @@ import './style.css';
 const Order = () => {
   const firstCaracter = 0;
   const { data, changeOrder } = useContext(context);
-  const initialSort = {
-    column: '',
-    asc: true,
-    desc: false,
-  };
-  const [sort, setSortForms] = useState(initialSort);
-  const { column, asc, desc } = sort;
+  const [column, setColumn] = useState('');
+  const [isAsc, setIsAsc] = useState(true);
   let arraySelectColumns = [];
 
-  const filterForms = (key, val) => {
-    if (key === 'column') {
-      setSortForms({ ...sort, [key]: val });
-    } else {
-      setSortForms({ ...sort, asc: !asc, desc: !desc });
-    }
-  };
-
   useEffect(() => {
-    // filterForms('asc', asc);
-    // filterForms('desc', desc);
-    filterForms('column', arraySelectColumns[0]);
-  }, arraySelectColumns);
+    setColumn(arraySelectColumns[0]);
+  }, [arraySelectColumns]);
 
   if (!data) {
     return false;
@@ -37,55 +22,63 @@ const Order = () => {
     .map((item) => (item));
 
   const handleClick = () => {
-    const order = (asc) ? 'ASC' : 'DESC';
+    const order = (isAsc) ? 'ASC' : 'DESC';
     changeOrder(column, order);
   };
 
   return (
     <div className="order-container">
-      <label htmlFor="planetInformation1">
-        <select
-          className="order-content order-select order-column"
-          id="planetInformation1"
-          data-testid="column-sort"
-          value={ column }
-          onChange={ (event) => filterForms('column', event.target.value) }
-        >
-          {
-            arraySelectColumns.map((element) => (
-              <option key={ element } value={ element }>
-                {
-                  element.replace('_', ' ')
-                    .replace(
-                      element.charAt(firstCaracter),
-                      element.charAt(firstCaracter).toUpperCase(),
-                    )
-                }
-              </option>
-            ))
-          }
-        </select>
-      </label>
-      <label htmlFor="asc">
+      <select
+        className="order-content order-select"
+        id="planetInformation1"
+        data-testid="column-sort"
+        value={ column }
+        onChange={ (event) => setColumn(event.target.value) }
+      >
+        {
+          arraySelectColumns.map((element) => (
+            <option key={ element } value={ element }>
+              {
+                element.replace('_', ' ')
+                  .replace(
+                    element.charAt(firstCaracter),
+                    element.charAt(firstCaracter).toUpperCase(),
+                  )
+              }
+            </option>
+          ))
+        }
+      </select>
+      <label
+        className="order-content"
+        htmlFor="asc"
+      >
+        <span>Crescente</span>
         <input
+          className="order-checkbox"
           type="radio"
           id="asc"
           name="asc"
-          value={ asc }
+          value={ isAsc }
           data-testid="column-sort-input-asc"
-          onChange={ (event) => filterForms('asc', event.target.value) }
-          checked={ asc }
+          onChange={ () => setIsAsc(true) }
+          checked={ isAsc }
         />
       </label>
-      <label htmlFor="desc">
+      <label
+        className="order-content"
+        htmlFor="desc"
+      >
+        <span>Decrescente</span>
         <input
+          className="order-checkbox"
           type="radio"
           id="desc"
           name="desc"
-          value={ desc }
+          value={ !isAsc }
           data-testid="column-sort-input-desc"
-          onChange={ (event) => filterForms('desc', event.target.checked) }
-          checked={ desc }
+          onChange={ () => setIsAsc(false) }
+          checked={ !isAsc }
         />
       </label>
       <button
