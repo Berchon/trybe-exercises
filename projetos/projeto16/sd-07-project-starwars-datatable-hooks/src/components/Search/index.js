@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import context from '../../context';
+import searchIcon from './images/searchIcon.svg';
 import './style.css';
 
 const Search = () => {
@@ -18,7 +19,8 @@ const Search = () => {
         onChange={ (event) => changeFiltersName(event.target.value) }
       />
       {/* </label> */}
-      <span className="search-icon">Icon</span>
+      <img className="search-icon" src={ searchIcon } alt="Buscar planeta" />
+      {/* <span className="search-icon">Icon</span> */}
     </div>
   );
 };

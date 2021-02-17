@@ -18,14 +18,14 @@
   border: none;
   color: #fde500;
   font-size: 25px;
-  outline: hidden;
+  outline: none;
   text-align: center;
 }
 
-.search-text:active {
-  outline: hidden;
+.search-text:active, .search-text:focus {
+  outline: none;
 }
 
 .search-icon {
-  width: 15px;
+  width: 30px;
 }

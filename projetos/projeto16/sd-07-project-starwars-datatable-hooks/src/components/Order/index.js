@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
 import context from '../../context';
+import './style.css';
 
 const Order = () => {
   const firstCaracter = 0;
@@ -41,10 +42,11 @@ const Order = () => {
   };
 
   return (
-    <div>
-      <label htmlFor="planetInformation">
+    <div className="order-container">
+      <label htmlFor="planetInformation1">
         <select
-          id="planetInformation"
+          className="order-content order-select order-column"
+          id="planetInformation1"
           data-testid="column-sort"
           value={ column }
           onChange={ (event) => filterForms('column', event.target.value) }
@@ -87,6 +89,7 @@ const Order = () => {
         />
       </label>
       <button
+        className="order-content order-button"
         type="button"
         data-testid="column-sort-button"
         onClick={ handleClick }

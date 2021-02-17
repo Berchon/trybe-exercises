@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
+import Loading from '../Loading';
 import context from '../../context';
+import './style.css';
 
 const Table = () => {
   const firstCaracter = 0;
@@ -7,7 +9,7 @@ const Table = () => {
   const { name } = filters.filterByName;
   const { order } = filters;
   if (!data) { // || !filters.filterByNumericValues.length) {
-    return (<div>Carregando ...</div>);
+    return (<Loading />);
   }
   let filtered = [];
 
@@ -67,7 +69,7 @@ const Table = () => {
   if (!filtered.length) return (notFound());
   // if (data && filtered.length) {
   return (
-    <table>
+    <table className="table-background">
       <thead>
         <tr>
           {
@@ -90,14 +92,16 @@ const Table = () => {
         {
           filtered.map((planet) => (
             <tr key={ planet.name }>
+              {/* {console.log(Object.entries(planet))} */}
               {
-                Object.values(planet)
+                Object.entries(planet)
+                  .filter((item) => (item[0] !== 'residents'))
                   .map((item, index) => (
                     <td
                       key={ index }
                       data-testid={ (!index) ? 'planet-name' : null }
                     >
-                      {item}
+                      {item[1].toString().replaceAll(',', '\n')}
                     </td>
                   ))
               }
