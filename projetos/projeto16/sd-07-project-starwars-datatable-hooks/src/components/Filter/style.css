@@ -12,14 +12,16 @@
   border-color: #fde500;
   border-width: 2px;
   border-radius: 22px;
-  flex-grow: 0;
+  box-sizing: border-box;
   color: #fde500;
+  display: flex;
   font-size: 25px;
   margin-left: -12px;
   outline: none;
   padding: 5px 10px;
   text-align: center;
   transition: 0.1s;
+  width: 24%;
 }
 
 .filter-content:focus {
@@ -32,25 +34,22 @@
   transition: 0.1s;
 }
 
-.filter-column {
-  width: 25%;
-}
-
-.filter-comparison {
-  width: 20%;
-}
-
 .filter-value {
   text-align: right;
-  width: 20%;
 }
 
 .filter-button {
+  display: flex;
+  justify-content: center;
   margin-right: -11px;
-  width: 25%;
 }
 
 .filter-button:hover {
   background-color: rgb(253, 229, 0);
   color: rgb(20, 20, 20);
+  transition: 0.1s;
+}
+
+.filter-content:hover {
+  cursor: pointer;
 }

@@ -33,14 +33,6 @@ const Provider = ({ children }) => {
     setFilters(newFilter);
   };
 
-  // const clearFiltersNumerics = () => {
-  //   const newFilter = {
-  //     ...filters,
-  //     filterByNumericValues: [],
-  //   };
-  //   setFilters(newFilter);
-  // };
-
   const addFiltersNumerics = (objFilter) => {
     const { filterByNumericValues } = filters;
     const dontRemove = 0;
@@ -62,32 +54,6 @@ const Provider = ({ children }) => {
     };
     setFilters(newFilter);
   };
-
-  // const changeFiltersNumerics = (index, objFilter) => {
-  //   const { filterByNumericValues } = filters;
-  //   //    altera o filtro
-  //   // filterByNumericValues.splice(index, 1, obj);
-  //   //    remove novo filtro
-  //   // filterByNumericValues.splice(index, 1, {});
-  //   //    add novo filtro
-  //   // filterByNumericValues.splice(-1, 0, obj);
-
-  //   const dontRemove = 0;
-  //   const numberOfFilters = filterByNumericValues.length;
-  //   if (index < numberOfFilters) {
-  //     // altera filtro
-  //     filterByNumericValues.splice(index, 1, objFilter);
-  //   } else {
-  //     // adicionar filtro
-  //     filterByNumericValues.splice(numberOfFilters, dontRemove, objFilter);
-  //   }
-
-  //   const newFilter = {
-  //     ...filters,
-  //     filterByNumericValues,
-  //   };
-  //   setFilters(newFilter);
-  // };
 
   const callRequestData = async () => {
     const { results } = await RequestData();
