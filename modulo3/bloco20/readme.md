@@ -1,4 +1,4 @@
-# Dia 1 - Banco de dados SQL
+# Bloco 20 - Introdução à SQL
 
 ## Descrição
 <p align="justify">
@@ -6,7 +6,7 @@
 </p>
 
 ## Sumário
-- [Dia 1 - Banco de dados SQL](#dia-1---banco-de-dados-sql)
+- [Bloco 20 - Introdução à SQL](#bloco-20---introdução-a-sql)
 - [Descrição](#descrição)
 - [Sumário](#sumário)
 - [Tecnologias utilizadas nesse dia](#tecnologias-utilizadas-nesse-dia)
