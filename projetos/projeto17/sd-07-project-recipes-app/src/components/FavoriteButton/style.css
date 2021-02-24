@@ -1,0 +1,17 @@
+.favorite-button-container {
+  display: flex;
+}
+
+.favorite-button-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+}
+
+.favorite-button-button:focus {
+  outline: none;
+}
+
+.favorite-button-image {
+  width: 26px;
+}
