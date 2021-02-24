@@ -1,0 +1,34 @@
+.search-bar-input {
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin: 10px 0 5px;
+  outline: none;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.search-bar-radios{
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar-button {
+  background-color: rgba(253, 3, 4, 1);
+  border: none;
+  border-radius: 16px;
+  box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+  height: 30px;
+  outline: none;
+  width: 100%;
+}
+
+.search-bar-button:hover, .search-bar-button:focus {
+  outline: none;
+}
+
+.search-bar-radio:hover {
+  cursor: pointer;
+}

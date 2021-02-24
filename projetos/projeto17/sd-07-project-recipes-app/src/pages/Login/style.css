@@ -1,0 +1,121 @@
+.login-background {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.login-container {
+  background-color: white;
+  border: solid 0.5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 640px;
+  overflow: hidden;
+  width: 360px;
+  z-index: 1;
+}
+
+.login-elipse {
+  background-color: rgb(255, 238, 230);
+  border-radius: 50%;
+  position: relative;
+  top: -750px;
+  left: -585px;
+  min-height: 1000px;
+  min-width: 800px;
+  z-index: 0;
+}
+
+.login-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  min-width: 360px;
+  z-index: 2;
+}
+
+.login-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.login-logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-images {
+  height: 80px;
+}
+
+.login-logo-circle-external {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: flex;
+  height: 220px;
+  justify-content: center;
+  width: 220px;
+}
+
+.login-logo-circle-internal {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  height: 180px;
+  justify-content: center;
+  width: 180px;
+}
+
+.login-logo-img {
+  width: 150px;
+}
+
+.login-inputs {
+  border: solid 1px rgba(0, 0, 0, 0.15);
+  border-radius: 26px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 50px;
+  margin: 10px 0;
+  outline: none;
+  text-align: center;
+  width: 100%;
+}
+
+.login-inputs:first-child {
+  margin: 10px 0 0px;
+}
+
+.login-button {
+  background-color: rgb(253, 3, 4);
+  border: none;
+  border-radius: 36px;
+  box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.25);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  height: 60px;
+  width: 100%;
+}
+
+.login-button:hover {
+  cursor: pointer;
+}
+
+.login-button:disabled {
+  background-color: rgba(253, 3, 4, 0.2);
+  cursor: default;
+}
+
+.login-button:active {
+  transform: translate(1px, 2px);
+}

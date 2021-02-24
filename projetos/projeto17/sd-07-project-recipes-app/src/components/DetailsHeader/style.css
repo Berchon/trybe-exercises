@@ -1,0 +1,44 @@
+.details-header-container {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 10px;
+  max-width: 360px;
+}
+
+.details-header-img {
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.details-header-content {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px 0;
+  width: 100%;
+}
+
+.details-header-title {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.details-header-buttons {
+  display: flex;
+}
+
+.details-header-footer {
+  color: darkgray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}

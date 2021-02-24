@@ -1,0 +1,112 @@
+.explore-by-ingredient-background {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.explore-by-ingredient-container {
+  border: solid 0.5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 640px;
+  overflow: hidden;
+  width: 360px;
+  z-index: 1;
+}
+
+.explore-by-ingredient-elipse {
+  background-color: rgb(255, 238, 230);
+  border-radius: 50%;
+  position: relative;
+  top: -750px;
+  left: -585px;
+  min-height: 1000px;
+  min-width: 800px;
+  z-index: 0;
+}
+
+.explore-by-ingredient-content1 {
+  box-sizing: border-box;
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+
+  padding: 10px;
+  min-width: 360px;
+  z-index: 2;
+}
+
+.e-b-i-c1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.explore-by-ingredient-middle1 {
+  /* border: solid 1px red; */
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -10px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.explore-container {
+  display: flex;
+  /* flex-direction: row; */
+  /* margin: 12px; */
+}
+
+.explore-content {
+  display: flex;
+  margin: 10px 11px 10px -10px;
+  text-decoration: none;
+  background-color: white;
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  height: 130px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+ 
+.explore-button {
+  background-color: white;
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  display: flex;
+  height: 130px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.explore-button:hover {
+  cursor: pointer;
+}
+
+.explore-titles {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.explore-title {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.explore-title:last-child {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+.explore-img {
+  height: 80px;
+  margin: 10px;
+}
