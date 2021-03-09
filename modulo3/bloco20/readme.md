@@ -9,14 +9,16 @@
 - [Bloco 20 - Introdução à SQL](#bloco-20---introdução-a-sql)
 - [Descrição](#descrição)
 - [Sumário](#sumário)
-- [Tecnologias utilizadas nesse dia](#tecnologias-utilizadas-nesse-dia)
-- [Conteúdos abordados nesse dia](#conteúdos-abordados-nesse-dia)
+- [Tecnologias utilizadas nesse bloco](#tecnologias-utilizadas-nesse-bloco)
+- [Conteúdos abordados nesse bloco](#conteúdos-abordados-nesse-bloco)
 
-## Tecnologias utilizadas nesse dia
+## Tecnologias utilizadas nesse bloco
 - MySQL
 
-## Conteúdos abordados nesse dia
+## Conteúdos abordados nesse bloco
+
 1. Banco de dados SQL
 2. Encontrando dados em um banco de dados
 3. Filtrando dados de forma específica
 4. Manipulando tabelas
+5. Projeto - All For One
