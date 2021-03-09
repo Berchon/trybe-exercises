@@ -9,13 +9,13 @@
 - [Bloco 21 - Funções SQL, Joins e Subqueries](#bloco-21---funções-SQL,-joins-e-subqueries)
 - [Descrição](#descrição)
 - [Sumário](#sumário)
-- [Tecnologias utilizadas nesse dia](#tecnologias-utilizadas-nesse-dia)
-- [Conteúdos abordados nesse dia](#conteúdos-abordados-nesse-dia)
+- [Tecnologias utilizadas nesse bloco](#tecnologias-utilizadas-nesse-bloco)
+- [Conteúdos abordados nesse bloco](#conteúdos-abordados-nesse-bloco)
 
-## Tecnologias utilizadas nesse dia
+## Tecnologias utilizadas nesse bloco
 - MySQL
 
-## Conteúdos abordados nesse dia
+## Conteúdos abordados nesse bloco
 1. Funções mais usadas no SQL
 2. Descomplicando JOINs, UNIONs e Subqueries
 3. Filtrando dados de forma específicaStored Routines & Stored Functions
