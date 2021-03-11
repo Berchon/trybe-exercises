@@ -17,7 +17,7 @@ Dividimos a introdução em duas partes:
 - [Conteúdos abordados nesse bloco](#conteúdos-abordados-nesse-bloco)
 
 ## Tecnologias utilizadas nesse bloco
-- MySQL
+- MongoDB
 
 ## Conteúdos abordados nesse bloco
 1. MongoDB - Introdução
