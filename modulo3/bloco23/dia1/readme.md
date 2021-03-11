@@ -13,7 +13,7 @@
 - [Conteúdos abordados nesse dia](#conteúdos-abordados-nesse-dia)
 
 ## Tecnologias utilizadas nesse dia
-- MySQL
+- MongoDB
 
 ## Conteúdos abordados nesse dia
 1. O MongoDB
