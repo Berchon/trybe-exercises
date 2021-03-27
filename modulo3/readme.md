@@ -1,4 +1,4 @@
-<img alt="capa da trybe" src="./images/capa.png" />
+<img alt="capa da trybe" src="./capa.png" />
 
 # Módulo 3 - Desenvolvimento Back-end
 
