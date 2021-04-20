@@ -24,7 +24,7 @@ async function exclude(id) {
   const db = await connection();
   if (!ObjectId.isValid(id)) return null;
   const product = await getBytId(id);
-  await db.collection("products").deleteOne({ _id: ObjectID(id) });
+  await db.collection("products").deleteOne({ _id: ObjectId(id) });
   return product;
 }
 
@@ -33,7 +33,7 @@ async function update(id) {
   if (!ObjectId.isValid(id)) return null;
   const product = await db
     .collection("products")
-    .updateOne({ _id: ObjectID(id) }, { $set: name, brand });
+    .updateOne({ _id: ObjectId(id) }, { $set: { name, brand } });
   if (!product) return add(name, brand);
   return product;
 }
