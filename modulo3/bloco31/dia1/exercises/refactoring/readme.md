@@ -1,3 +1,8 @@
+# Insomnia teste
+
+Clique no botão abaixo para importar todas as rotas de testes no seu Insomnia.
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Trybe%20-%20Exerc%C3%ADcio%20do%20dia%2031.1&uri=https%3A%2F%2Fraw.githubusercontent.com%2FBerchon%2Ftrybe-exercises%2Fmaster%2Fmodulo3%2Fbloco31%2Fdia1%2Fexercises%2Frefactoring%2FInsomnia_export.json)
 # Agora, a prática
 
 Vamos começar criando uma aplicação pequena e aplicando os princípios de SOLID nela para que possamos transformar esse módulo em uma API.
