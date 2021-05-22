@@ -2,7 +2,7 @@
 
 Clique no botão abaixo para importar todas as rotas de testes no seu Insomnia.
 
-
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Trybe%20Dia%2031.2%20-%20Exerc%C3%ADcio&uri=https%3A%2F%2Fraw.githubusercontent.com%2FBerchon%2Ftrybe-exercises%2Fmaster%2Fmodulo3%2Fbloco31%2Fdia2%2Fexercise%2FInsomnia_export.json)
 
 # Instruções para realização dos exercícios
 
