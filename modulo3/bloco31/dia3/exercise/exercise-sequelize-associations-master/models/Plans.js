@@ -13,7 +13,7 @@ const Plans = (sequelize, DataTypes) => {
 
   Plans.associate = (models) => {
     Plans.hasMany(models.Patients, {
-      foreignKey: 'patient_id', as: 'patients'
+      foreignKey: 'plan_id', as: 'patients'
     });
   };
 

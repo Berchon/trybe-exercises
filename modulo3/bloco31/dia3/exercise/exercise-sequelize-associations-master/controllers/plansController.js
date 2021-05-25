@@ -8,7 +8,7 @@ const getAllPatientsByPlanId = async (req, res) => {
       include: [{
         model: Patients,
         as: 'patients',
-        where: { plan_id: id },
+        // where: { plan_id: id },
         // through: { attributes: [] },
       }],
     });
