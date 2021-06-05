@@ -1,0 +1,7 @@
+- [ ] Como inicar um servidor para instanciar um socket.
+- [ ] Como enviar dados do servidor para o cliente.
+- [ ] Como escutar o envio de dados chegando no cliente.
+- [ ] Enviar dados para todos os clientes
+- [ ] Como enviar dados do cliente para o servidor
+- [ ] Como escutar envios do cliente no servidor
+- [ ] Como detectar quando um usuário fecha o socket com o servidor.
