@@ -16,11 +16,13 @@ Lembre-se: uma arquitetura pobre pode matar um projeto conforme ele vai crescend
 ## Tecnologias utilizadas nesse bloco
 - NodeJS
 - MySQL
-- Sequelize
+- MongoDB
 - Arquitetura MVC
+- Sockets
 
 ## Conteúdos abordados nesse bloco
 1. Arquitetura de Software - Camada de View
 2. Sockets - TCP/UDP & NET
 3. Sockets - Socket.io
-4. Projeto - Webchat
+4. Sockets - Praticando Socket.io
+5. Projeto - Webchat

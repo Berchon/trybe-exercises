@@ -1,6 +1,6 @@
 const Author = require('../models/Author');
 
-const listAuthors = async (req, res) => {
+const listAuthors = async (_req, res) => {
   const authors = await Author.getAll();
 
   res.status(200).render('authors/index', { authors });
@@ -15,7 +15,7 @@ const showAuthor = async (req, res) => {
   res.status(200).render('authors/show', { author });
 };
 
-const newAuthor = (req, res) => {
+const newAuthor = (_req, res) => {
   res.render('authors/new', { message: null });
 };
 
