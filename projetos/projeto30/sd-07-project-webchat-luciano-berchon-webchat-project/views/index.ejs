@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Trybe WebChat</title>
+  </head>
+  <body>
+    <section>
+      <aside>
+        <!-- Form para alterar o nickname -->
+        <form id="formChangeNickname">
+          <input
+            type="text"
+            id="changeNicknameInput"
+            placeholder="Digite seu novo nickname"
+            data-testid="nickname-box"
+          >
+          <button type="submit" data-testid="nickname-button">Alterar</button>
+        </form>
+
+        <!-- onde aparecerá pessoas onlines -->
+        <h2>Lista de usuários online</h2>
+        <ul id="list-users">
+          <%
+            users.forEach((user) => {  %>
+              <li
+                data-testid="online-user"
+                id=<%= user.id %>
+              >
+                <%= user.name %>
+              </li>
+            <% })
+          %>
+        </ul>
+      </aside>
+      <main>
+        <div id="messages-container">
+          <!-- onde aparecerá as mensagens -->
+          <h2>Lista das mensagens enviadas</h2>
+          <div class="message">
+            <!-- onde aparecerá cada mensagem -->
+            <ul id="messages">
+              <% messages.forEach((message) => {  %>
+                <li data-testid="message">
+                  <%=
+                  `${message.timestamp} ${message.nickname} ${message.message}`
+                  %>
+                </li>
+              <% }) %>
+            </ul>
+          </div>
+        </div>
+        <h2>Conainer para criar novas mensagens</h2>
+        <form class="msger-inputarea" id="formSendMessage">
+          <!-- onde aparecerá o forms enviar mensagem -->
+          <input
+            type="text"
+            id="messageInput"
+            class="msger-input"
+            placeholder="Escreva sua mensagem..."
+            data-testid="message-box"
+          >
+          <button type="submit" class="msger-send-btn" data-testid="send-button">Enviar</button>
+        </form>
+      </main>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="./js/client.js"></script>
+  </body>
+</html>
