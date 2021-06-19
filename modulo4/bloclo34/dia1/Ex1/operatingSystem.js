@@ -11,7 +11,7 @@ const randomNumbers = [
   '84300'
 ]
 
-for (let i=0; i<500; i+=1) {
+for (let i=0; i<8; i+=1) {
   randomNumbers.push((Math.random() * 100000).toString());
 }
 
