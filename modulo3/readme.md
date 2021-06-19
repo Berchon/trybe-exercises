@@ -8,7 +8,7 @@
 </p>
 
 ## Sumário
-- [Módulo 2 - Desenvolvimento Front-end](#módulo-2---desenvolvimento-front-end)
+- [Módulo 3 - Desenvolvimento Back-end](#módulo-3---desenvolvimento-back-end)
 - [Descrição](#descrição)
 - [Sumario](#sumário)
 - [Tecnologias utilizadas nesse módulo](#tecnologias-utilizadas-nesse-módulo)
