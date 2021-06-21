@@ -19,9 +19,9 @@
 - Python
 
 ## Conteúdos abordados nesse módulo
-1. Bloco 34: Arquitetura de Computadores e Redes
-2. Bloco 35: Introdução à Python e Raspagem de Dados da Web
-3. Bloco 36: Programação Orientada a Objetos e Padrões de Projeto
-4. Bloco 37: Algoritmos e Estrutura de Dados
-5. Bloco 38: Estrutura de Dados: Hash e Set
-6. Bloco 39: Estrutura de Dados: Pilhas, Filas e Listas
+1. Bloco 33: Arquitetura de Computadores e Redes
+2. Bloco 34: Introdução à Python e Raspagem de Dados da Web
+3. Bloco 35: Programação Orientada a Objetos e Padrões de Projeto
+4. Bloco 36: Algoritmos e Estrutura de Dados
+5. Bloco 37: Estrutura de Dados: Hash e Set
+6. Bloco 38: Estrutura de Dados: Pilhas, Filas e Listas

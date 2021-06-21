@@ -1,4 +1,4 @@
-# Bloco 34 - Arquitetura de Computadores e Redes
+# Bloco 33 - Arquitetura de Computadores e Redes
 
 ## Descrição
 <p align="justify">
@@ -8,7 +8,7 @@ Ao longo desse módulo faremos uma introdução à linguagem de programação Py
 </p>
 
 ## Sumário
-- [Bloco 34 - Arquitetura de Computadores e Redes](#bloco-34---arquitetura-de-computadores-e-redes)
+- [Bloco 33 - Arquitetura de Computadores e Redes](#bloco-33---arquitetura-de-computadores-e-redes)
 - [Descrição](#descrição)
 - [Sumário](#sumário)
 - [Tecnologias utilizadas nesse bloco](#tecnologias-utilizadas-nesse-bloco)
