@@ -35,12 +35,12 @@
 
 ## Estrutura do Readme
 
-
+Este Readme está separado por quatro grandes módulos. Cada módulo é dividido em blocos e cada bloco é subdividido por dia. Nas pastas dos dias é onde são encontrados os exercícios resolvidos durante o curso
 
 ## Status do andamento
 
 - [X] Módulo 1
 - [X] Módulo 2
-- [ ] Módulo 3
+- [X] Módulo 3
 - [ ] Módulo 4
 - [ ] Projetos
