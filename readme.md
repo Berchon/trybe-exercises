@@ -39,7 +39,7 @@ Este Readme está separado por quatro grandes módulos. Cada módulo é dividido
 
 ## Status do andamento
 
-- [X] Módulo 1
+- [X] Módulo 1 (Este módulo ainda não possuio os README.md implementados)
 - [X] Módulo 2
 - [X] Módulo 3
 - [ ] Módulo 4
