@@ -29,18 +29,17 @@
 <p align="justify">
       <strong>Módulo 4</strong> - Ciência da Computação: Aqui, você aprenderá os principais conceitos da Ciência da Computação que são aplicados no dia a dia do desenvolvomento de software e como transformar a teoria em prática, analisando algoritmos e escolhendo as melhores estruturas de dados para resolver os problemas!
 </p>
-<p align="justify">
-      
-</p>
 
 ## Estrutura do Readme
 
-Este Readme está separado por quatro grandes módulos. Cada módulo é dividido em blocos e cada bloco é subdividido por dia. Nas pastas dos dias é onde são encontrados os exercícios resolvidos durante o curso
+<p align="justify">
+    Este Readme está separado por quatro grandes módulos. Cada módulo é dividido em blocos e cada bloco é subdividido por dia. Nas pastas dos dias são encontrados os exercícios resolvidos durante o curso  
+</p>
 
 ## Status do andamento
 
-- [X] Módulo 1 (Este módulo ainda não possuio os README.md implementados)
-- [X] Módulo 2
-- [X] Módulo 3
-- [ ] Módulo 4
-- [ ] Projetos
+- [X] Módulo 1 - Fundamentos Web (Este módulo ainda não possui as implementações dos README.md)
+- [X] Módulo 2 - Front-End
+- [X] Módulo 3 - Back-End
+- [ ] Módulo 4 - Ciência da Computação
+- [ ] Projetos desenvolvidos ao longo dos módulos
