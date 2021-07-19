@@ -8,6 +8,14 @@
       Com o nosso Modelo de Sucesso    Compartilhado (MSC), a pessoa estudante tem a opção de pagar apenas quando já estiver trabalhando.
 </p>
 
+## Sumário
+- [Sobre a Trybe](#sobre-a-trybe)
+- [Sumário](#sumário)
+- [Descrição](#descrição)
+- [Estrutura do Readme](#estrutura-do-readme)
+- [Status do andamento do curso](#status-do-andamento-do-curso)
+- [Estrutura do curso](#estrutura-do-curso)
+
 ## Descrição
 <p align="justify">
       Este repositório é dividido entre os projetos realizados ao longo do curso e em 4 módulos de de exercícios. Cada módulo é dividido em vários blocos e cada bloco subdividido em alguns dias.
@@ -37,7 +45,7 @@
     Este Readme está separado por quatro grandes módulos. Cada módulo é dividido em blocos e cada bloco é subdividido por dia. Nas pastas dos dias são encontrados os exercícios resolvidos durante o curso  
 </p>
 
-## Status do andamento
+## Status do andamento do curso
 
 - [X] Módulo 1 - Fundamentos Web (Este módulo ainda não possui as implementações dos README.md)
 - [X] Módulo 2 - Front-End
