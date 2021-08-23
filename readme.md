@@ -50,8 +50,8 @@
 - [X] Módulo 1 - Fundamentos Web (Este módulo ainda não possui as implementações dos README.md)
 - [X] Módulo 2 - Front-End
 - [X] Módulo 3 - Back-End
-- [ ] Módulo 4 - Ciência da Computação
-- [ ] Projetos desenvolvidos ao longo dos módulos
+- [X] Módulo 4 - Ciência da Computação
+- [X] Projetos desenvolvidos ao longo dos módulos
 
 
 ## Estrutura do curso
@@ -286,19 +286,19 @@
 - [x] 35.4 - Projeto - Relatórios de Estoque
 
 ##### Bloco 36: [Algoritmos e Estrutura de Dados](/modulo4/bloco36/)
-- [ ] 36.1 - Complexidade de Algoritmos
-- [ ] 36.2 - Recursividade e Estratégias para solução de problemas
-- [ ] 36.3 - Algoritmos de ordenação e busca
-- [ ] 36.4 - Projeto - Algoritmos
+- [X] 36.1 - Complexidade de Algoritmos
+- [X] 36.2 - Recursividade e Estratégias para solução de problemas
+- [X] 36.3 - Algoritmos de ordenação e busca
+- [X] 36.4 - Projeto - Algoritmos
 
 ##### Bloco 37: [Estrutura de Dados: Hash e Set](/modulo4/bloco37/)
-- [ ] 37.1 - Arrays
-- [ ] 37.2 - Hashmap e Dict
-- [ ] 37.3 - Set
-- [ ] 37.4 - Projeto - Restaurant Orders
+- [X] 37.1 - Arrays
+- [X] 37.2 - Hashmap e Dict
+- [X] 37.3 - Set
+- [X] 37.4 - Projeto - Restaurant Orders
 
 ##### Bloco 38: [Estrutura de Dados: Pilhas, Filas e Listas](/modulo4/bloco38/)
-- [ ] 38.1 - Nó e Listas Encadeadas
-- [ ] 38.2 - Deque
-- [ ] 38.3 - Pilhas
-- [ ] 38.4 - Projeto - TING - Trybe Is Not Google
+- [X] 38.1 - Nó e Listas Encadeadas
+- [X] 38.2 - Deque
+- [X] 38.3 - Pilhas
+- [X] 38.4 - Projeto - TING - Trybe Is Not Google
